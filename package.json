@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-adpyke-es6",
+  "version": "1.0.0",
+  "description": "A nice ESLint preset for ES6",
+  "peerDependencies": {
+    "eslint": ">= 4"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kufii/eslint-config-adpyke-esg.git"
+  },
+  "keywords": [
+    "eslint",
+    "es6",
+    "ecmascript6"
+  ],
+  "author": "Adrien Pyke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kufii/eslint-config-adpyke-esg/issues"
+  },
+  "homepage": "https://github.com/kufii/eslint-config-adpyke-esg#readme"
+}
