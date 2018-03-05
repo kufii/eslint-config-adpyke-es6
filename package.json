@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kufii/eslint-config-adpyke-esg.git"
+    "url": "git+https://github.com/kufii/eslint-config-adpyke-es6.git"
   },
   "keywords": [
     "eslint",
