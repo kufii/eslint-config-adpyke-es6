@@ -73,7 +73,8 @@ module.exports = {
 		'space-in-parens': 1,
 		'space-unary-ops': 1,
 		'spaced-comment': 1,
-		'switch-colon-spacing': 1
+		'switch-colon-spacing': 1,
+		'prefer-template': 1
 	},
 	'env': {
 		'es6': true,

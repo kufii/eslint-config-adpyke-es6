@@ -2,9 +2,6 @@
   "name": "eslint-config-adpyke-es6",
   "version": "1.0.2",
   "description": "A nice ESLint preset for ES6",
-  "peerDependencies": {
-    "eslint": ">= 4"
-  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,7 +18,10 @@
   "author": "Adrien Pyke",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kufii/eslint-config-adpyke-esg/issues"
+    "url": "https://github.com/kufii/eslint-config-adpyke-es6/issues"
   },
-  "homepage": "https://github.com/kufii/eslint-config-adpyke-esg#readme"
+  "homepage": "https://github.com/kufii/eslint-config-adpyke-es6#readme",
+  "peerDependencies": {
+    "eslint": ">= 4"
+  }
 }
