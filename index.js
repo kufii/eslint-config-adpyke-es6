@@ -68,7 +68,7 @@ module.exports = {
 		'keyword-spacing': 1,
 		'no-lonely-if': 1,
 		'no-mixed-operators': 1,
-		'no-multiple-empty-lines': [1, { max: 2, maxEOF: 1, maxBOF: 1 }],
+		'no-multiple-empty-lines': [1, { max: 2, maxEOF: 0, maxBOF: 1 }],
 		'nonblock-statement-body-position': 1,
 		'object-curly-spacing': [1, 'always'],
 		'operator-linebreak': 1,
