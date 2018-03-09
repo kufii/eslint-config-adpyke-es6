@@ -55,7 +55,7 @@ module.exports = {
 		'arrow-spacing': 1,
 		'generator-star-spacing': 1,
 		'template-curly-spacing': 1,
-		'array-bracket-newline': [1, { multiline: true }],
+		'array-bracket-newline': [1, 'consistent'],
 		'array-bracket-spacing': 1,
 		'block-spacing': 1,
 		'brace-style': [1, '1tbs', { 'allowSingleLine': true }],
