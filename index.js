@@ -62,7 +62,7 @@ module.exports = {
 		'comma-spacing': 1,
 		'comma-style': 1,
 		'computed-property-spacing': 1,
-		'function-paren-newline': 1,
+		'function-paren-newline': [1, 'consistent'],
 		'implicit-arrow-linebreak': 1,
 		'key-spacing': 1,
 		'keyword-spacing': 1,
