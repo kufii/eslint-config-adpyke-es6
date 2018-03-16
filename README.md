@@ -1,2 +1,2 @@
-# eslint-config-adpyke-esg
+# eslint-config-adpyke-es6
 A nice ESLint preset for ES6
