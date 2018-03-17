@@ -4,7 +4,7 @@ module.exports = {
 	'extends': 'eslint:recommended',
 	'rules': {
 		'no-console': 'off',
-		'no-unused-vars': [2, { args: 'after-used' }],
+		'no-unused-vars': [2, { args: 'after-used', ignoreRestSiblings: true }],
 		'semi': 2,
 		'semi-style': 2,
 		'no-var': 2,
