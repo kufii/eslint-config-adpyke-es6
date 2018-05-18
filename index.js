@@ -71,7 +71,6 @@ module.exports = {
 		'indent': [1, 'tab', { SwitchCase: 1 }],
 		'key-spacing': 1,
 		'keyword-spacing': 1,
-		'new-cap': 1,
 		'no-empty-function': 1,
 		'no-extra-bind': 1,
 		'no-floating-decimal': 1,
