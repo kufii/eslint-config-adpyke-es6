@@ -51,7 +51,7 @@ module.exports = {
 		'no-multi-spaces': 1,
 		'no-floating-decimal': 1,
 		'quotes': [1, 'single'],
-		'indent': [1, 'tab'],
+		'indent': [1, 'tab', { SwitchCase: 1 }],
 		'no-mixed-spaces-and-tabs': [1, 'smart-tabs'],
 		'arrow-spacing': 1,
 		'generator-star-spacing': 1,
