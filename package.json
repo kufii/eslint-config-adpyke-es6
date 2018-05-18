@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-adpyke-es6",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "A nice ESLint preset for ES6",
   "main": "index.js",
   "scripts": {
