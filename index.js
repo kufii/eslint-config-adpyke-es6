@@ -25,7 +25,7 @@ module.exports = {
 		'no-new-func': 2,
 		'no-new-object': 2,
 		'no-new-require': 2,
-		'no-new-wrapper': 2,
+		'no-new-wrappers': 2,
 		'no-octal-escape': 2,
 		'no-path-concat': 2,
 		'no-process-env': 2,
