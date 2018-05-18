@@ -98,7 +98,6 @@ module.exports = {
 		'prefer-arrow-callback': 1,
 		'prefer-spread': 1,
 		'prefer-template': 1,
-		'quote-props': [1, 'as-needed'],
 		'quotes': [1, 'single'],
 		'semi-spacing': 1,
 		'space-before-blocks': 1,
