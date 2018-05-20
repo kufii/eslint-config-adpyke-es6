@@ -28,7 +28,6 @@ module.exports = {
 		'no-new-wrappers': 2,
 		'no-octal-escape': 2,
 		'no-path-concat': 2,
-		'no-process-env': 2,
 		'no-proto': 2,
 		'no-return-await': 2,
 		'no-script-url': 2,
