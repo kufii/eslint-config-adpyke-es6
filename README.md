@@ -5,7 +5,7 @@ A highly opinionated ESLint [shareable config](https://eslint.org/docs/developer
 `$ npm install --save-dev eslint eslint-config-adpyke-es6`
 
 ## Usage
-Once the `eslint-config-adpyke-es6` package is installed, you can use it by specifying `adpyke-es6` in the `[extends](http://eslint.org/docs/user-guide/configuring#extending-configuration-files)` section of your [ESLint configuration](http://eslint.org/docs/user-guide/configuring).
+Once the `eslint-config-adpyke-es6` package is installed, you can use it by specifying `adpyke-es6` in the [extends](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) section of your [ESLint configuration](http://eslint.org/docs/user-guide/configuring).
 
 ```javascript
 {
