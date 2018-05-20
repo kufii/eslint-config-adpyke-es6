@@ -95,6 +95,7 @@ module.exports = {
 		'operator-linebreak': 1,
 		'padded-blocks': [1, 'never'],
 		'prefer-arrow-callback': 1,
+		'prefer-const': 1,
 		'prefer-spread': 1,
 		'prefer-template': 1,
 		'quotes': [1, 'single'],
