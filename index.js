@@ -92,7 +92,7 @@ module.exports = {
 		'object-curly-spacing': [1, 'always'],
 		'object-shorthand': 1,
 		'operator-assignment': 1,
-		'operator-linebreak': 1,
+		'operator-linebreak': [1, 'before'],
 		'padded-blocks': [1, 'never'],
 		'prefer-arrow-callback': 1,
 		'prefer-const': 1,
