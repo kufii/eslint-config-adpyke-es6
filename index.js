@@ -109,6 +109,9 @@ module.exports = {
 		'template-curly-spacing': 1,
 		'yoda': 1
 	},
+	'parserOptions': {
+		'ecmaVersion': 2017
+	},
 	'env': {
 		'es6': true,
 		'browser': true
