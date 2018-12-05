@@ -38,7 +38,7 @@ module.exports = {
 		'no-undefined': 2,
 		'no-unmodified-loop-condition': 2,
 		'no-unused-expressions': [2, { allowShortCircuit: true, allowTernary: true }],
-		'no-unused-vars': [2, { args: 'after-used', ignoreRestSiblings: true }],
+		'no-unused-vars': [2, { args: 'after-used', ignoreRestSiblings: true, argsIgnorePattern: '^_' }],
 		'no-var': 2,
 		'no-void': 2,
 		'no-whitespace-before-property': 2,
