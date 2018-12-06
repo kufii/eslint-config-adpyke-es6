@@ -63,7 +63,7 @@ module.exports = {
 		'dot-notation': 1,
 		'eol-last': 1,
 		'function-paren-newline': [1, 'consistent'],
-		'generator-star-spacing': [1, { before: false, after: true }],
+		'generator-star-spacing': [1, { before: false, after: true, anonymous: 'neither' }],
 		'indent': [1, 'tab', { SwitchCase: 1 }],
 		'key-spacing': 1,
 		'keyword-spacing': 1,
