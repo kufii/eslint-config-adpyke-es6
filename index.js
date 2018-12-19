@@ -6,7 +6,7 @@ module.exports = {
 		'no-console': 'off',
 		'comma-dangle': 2,
 		'dot-location': [2, 'property'],
-		'eqeqeq': 2,
+		'eqeqeq': [2, 'always', { null: 'ignore' }],
 		'func-call-spacing': 2,
 		'func-style': 2,
 		'global-require': 2,
