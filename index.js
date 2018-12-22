@@ -64,7 +64,7 @@ module.exports = {
 		'eol-last': 1,
 		'function-paren-newline': [1, 'consistent'],
 		'generator-star-spacing': [1, { before: false, after: false, named: 'after' }],
-		'indent': [1, 'tab', { SwitchCase: 1 }],
+		'indent': [1, 'tab', { SwitchCase: 1, flatTernaryExpressions: true }],
 		'key-spacing': 1,
 		'keyword-spacing': 1,
 		'no-empty-function': 1,
