@@ -99,7 +99,7 @@ module.exports = {
 		'prefer-const': [1, { destructuring: 'all' }],
 		'prefer-spread': 1,
 		'prefer-template': 1,
-		'quotes': [1, 'single'],
+		'quotes': [1, 'single', { avoidEscape: true }],
 		'semi-spacing': 1,
 		'space-before-blocks': 1,
 		'space-before-function-paren': [1, 'never'],
