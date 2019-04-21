@@ -32,7 +32,6 @@ module.exports = {
 		'no-return-await': 2,
 		'no-script-url': 2,
 		'no-self-compare': 2,
-		'no-sequences': 2,
 		'no-shadow-restricted-names': 2,
 		'no-throw-literal': 2,
 		'no-undefined': 2,
