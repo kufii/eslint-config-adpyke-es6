@@ -31,7 +31,6 @@ module.exports = {
 		'no-self-compare': 2,
 		'no-shadow-restricted-names': 2,
 		'no-throw-literal': 2,
-		'no-undefined': 2,
 		'no-var': 2,
 		'no-void': 2,
 		'no-whitespace-before-property': 2,
