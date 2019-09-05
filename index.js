@@ -5,10 +5,7 @@ module.exports = {
 	'rules': {
 		'no-console': 'off',
 		'comma-dangle': 2,
-		'dot-location': [2, 'property'],
 		'eqeqeq': [2, 'always', { null: 'ignore' }],
-		'func-call-spacing': 2,
-		'func-style': 2,
 		'global-require': 2,
 		'new-parens': 2,
 		'no-array-constructor': 2,
@@ -35,8 +32,6 @@ module.exports = {
 		'no-shadow-restricted-names': 2,
 		'no-throw-literal': 2,
 		'no-undefined': 2,
-		'no-unmodified-loop-condition': 2,
-		'no-unused-expressions': [2, { allowShortCircuit: true, allowTernary: true }],
 		'no-var': 2,
 		'no-void': 2,
 		'no-whitespace-before-property': 2,
@@ -107,7 +102,12 @@ module.exports = {
 		'spaced-comment': 1,
 		'switch-colon-spacing': 1,
 		'template-curly-spacing': 1,
-		'yoda': 1
+		'yoda': 1,
+		'func-call-spacing': 1,
+		'func-style': 1,
+		'no-unmodified-loop-condition': 1,
+		'no-unused-expressions': [1, { allowShortCircuit: true, allowTernary: true }],
+		'dot-location': [1, 'property'],
 	},
 	'parserOptions': {
 		'ecmaVersion': 2018
