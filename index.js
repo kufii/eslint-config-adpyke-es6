@@ -104,7 +104,7 @@ module.exports = {
 		'func-call-spacing': 1,
 		'func-style': 1,
 		'no-unmodified-loop-condition': 1,
-		'no-unused-expressions': [1, { allowShortCircuit: true, allowTernary: true }],
+		'no-unused-expressions': [1, { allowShortCircuit: true, allowTernary: true, allowTaggedTemplates: true }],
 		'dot-location': [1, 'property'],
 	},
 	'parserOptions': {
