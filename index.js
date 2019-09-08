@@ -1,11 +1,12 @@
 'use strict';
 
 module.exports = {
-	'extends': 'eslint:recommended',
-	'rules': {
+	extends: 'eslint:recommended',
+	rules: {
 		'no-console': 'off',
+		'require-atomic-updates': 0,
 		'comma-dangle': 2,
-		'eqeqeq': [2, 'always', { null: 'ignore' }],
+		eqeqeq: [2, 'always', { null: 'ignore' }],
 		'global-require': 2,
 		'new-parens': 2,
 		'no-array-constructor': 2,
@@ -39,9 +40,9 @@ module.exports = {
 		'prefer-rest-params': 2,
 		'require-await': 2,
 		'rest-spread-spacing': 2,
-		'semi': 2,
+		semi: 2,
 		'semi-style': 2,
-		'strict': 2,
+		strict: 2,
 		'wrap-iife': 2,
 		'arrow-body-style': 1,
 		'array-bracket-newline': [1, 'consistent'],
@@ -57,7 +58,7 @@ module.exports = {
 		'eol-last': 1,
 		'function-paren-newline': [1, 'consistent'],
 		'generator-star-spacing': [1, { before: false, after: false, named: 'after' }],
-		'indent': [1, 'tab', { SwitchCase: 1, flatTernaryExpressions: true }],
+		indent: [1, 'tab', { SwitchCase: 1, flatTernaryExpressions: true }],
 		'jsx-quotes': [1, 'prefer-single'],
 		'key-spacing': 1,
 		'keyword-spacing': 1,
@@ -80,7 +81,15 @@ module.exports = {
 		'no-useless-escape': 1,
 		'no-useless-rename': 1,
 		'no-useless-return': 1,
-		'no-unused-vars': [1, { args: 'after-used', ignoreRestSiblings: true, argsIgnorePattern: '^_+$', varsIgnorePattern: '^_+$' }],
+		'no-unused-vars': [
+			1,
+			{
+				args: 'after-used',
+				ignoreRestSiblings: true,
+				argsIgnorePattern: '^_+$',
+				varsIgnorePattern: '^_+$'
+			}
+		],
 		'nonblock-statement-body-position': 1,
 		'object-curly-newline': [1, { consistent: true }],
 		'object-curly-spacing': [1, 'always'],
@@ -91,7 +100,7 @@ module.exports = {
 		'prefer-arrow-callback': 1,
 		'prefer-const': [1, { destructuring: 'all' }],
 		'prefer-spread': 1,
-		'quotes': [1, 'single', { avoidEscape: true }],
+		quotes: [1, 'single', { avoidEscape: true }],
 		'semi-spacing': 1,
 		'space-before-blocks': 1,
 		'space-before-function-paren': [1, 'never'],
@@ -100,18 +109,21 @@ module.exports = {
 		'spaced-comment': 1,
 		'switch-colon-spacing': 1,
 		'template-curly-spacing': 1,
-		'yoda': 1,
+		yoda: 1,
 		'func-call-spacing': 1,
 		'func-style': 1,
 		'no-unmodified-loop-condition': 1,
-		'no-unused-expressions': [1, { allowShortCircuit: true, allowTernary: true, allowTaggedTemplates: true }],
-		'dot-location': [1, 'property'],
+		'no-unused-expressions': [
+			1,
+			{ allowShortCircuit: true, allowTernary: true, allowTaggedTemplates: true }
+		],
+		'dot-location': [1, 'property']
 	},
-	'parserOptions': {
-		'ecmaVersion': 2018
+	parserOptions: {
+		ecmaVersion: 2018
 	},
-	'env': {
-		'es6': true,
-		'browser': true
+	env: {
+		es6: true,
+		browser: true
 	}
 };
