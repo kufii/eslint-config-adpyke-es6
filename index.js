@@ -44,6 +44,7 @@ module.exports = {
 		'semi-style': 2,
 		strict: 2,
 		'wrap-iife': 2,
+		'require-unicode-regexp': 2,
 		'arrow-body-style': 1,
 		'array-bracket-newline': [1, 'consistent'],
 		'array-bracket-spacing': 1,
